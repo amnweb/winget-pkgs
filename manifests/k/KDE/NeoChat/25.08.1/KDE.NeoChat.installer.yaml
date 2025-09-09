@@ -1,0 +1,23 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: KDE.NeoChat
+PackageVersion: 25.08.1
+InstallerType: nullsoft
+UpgradeBehavior: install
+ProductCode: NeoChat
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/neochat/release-25.08/windows/neochat-release_25.08-13169-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 662FA8D66893750111DB3C4FB9C3A799D5C370F8B8B48C71B54B59BAF673A8EE
+  InstallerSwitches:
+    Custom: /CurrentUser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/neochat/release-25.08/windows/neochat-release_25.08-13169-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 662FA8D66893750111DB3C4FB9C3A799D5C370F8B8B48C71B54B59BAF673A8EE
+  InstallerSwitches:
+    Custom: /AllUsers
+ManifestType: installer
+ManifestVersion: 1.10.0
