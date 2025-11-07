@@ -9,14 +9,14 @@ ProductCode: ksnakeduel
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/ksnakeduel/master/windows/ksnakeduel-master-705-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 3880B3EB0AA0427A2365CE1EE07DB4BF8969994294B727DAF038A0CDCE09B713
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/ksnakeduel/master/windows/ksnakeduel-master-734-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: D89DBC9B23E30A9B75B3FB852505777115276E40D9D78A5F0BE3722D262D64F3
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/ksnakeduel/master/windows/ksnakeduel-master-705-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 3880B3EB0AA0427A2365CE1EE07DB4BF8969994294B727DAF038A0CDCE09B713
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/ksnakeduel/master/windows/ksnakeduel-master-734-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: D89DBC9B23E30A9B75B3FB852505777115276E40D9D78A5F0BE3722D262D64F3
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
